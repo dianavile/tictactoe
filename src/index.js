@@ -15,10 +15,9 @@ class Square extends React.Component {
 
   render() {
     return (
-       <button
+      <button
         className="square"
-        onClick={() => this.setState({ value: 'X' })}
-        //with setState() React automatically actualizes child components
+        onClick={() => this.setState({value: 'X'})}
       >
         {this.state.value}
       </button>
@@ -29,7 +28,7 @@ class Square extends React.Component {
 //component2: Board component (=Child component)
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square value={i}/>;
+    return <Square />;
   }
 
   render() {
