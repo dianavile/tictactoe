@@ -1,24 +1,22 @@
 # Tictactoe
 
 commit A: setup
-- [V] inspect code
-- [V] add props code to Square component
-- [V] setState() to Square component
+- [X] inspect code
+- [X] add props code to Square component
+- [X] setState() to Square component
 
 commit B: complete the game
-- [V] setState()to Boardcomponent (=add constructor to get data from multiple child components) instead of Square component.
-- [V] add props code to Squares on Board component
-- [V] add handleClick() method to Board component
-- [V] change turns between player X and O in Board component
-- [V] declare a winner with calculateWinner()
+- [X] setState()to Boardcomponent (=add constructor to get data from multiple child components) instead of Square component.
+- [X] add props code to Squares on Board component
+- [X] add handleClick() method to Board component
+- [X] change turns between player X and O in Board component
+- [X] declare a winner with calculateWinner()
 
-
-EXERCISE: Add the following 6 steps to the TicTacToe game
+## EXERCISE: Add the following 6 steps to the TicTacToe game
 - [X] commit 1: save historical movements
 - [X] commit 2: setState: move state from Board to Game component 
-
-- [] commit 3: display historical movements
-- [] commit 4: add a key 
+- [X] commit 3: display historical movements
+- [X] commit 4: add a key 
 
 - [] commit 5: implement historical movements 
 - []commit 6: debug & refactor code
