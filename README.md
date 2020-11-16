@@ -6,9 +6,9 @@ commit 1: setup
 - [V] setState() to Square component
 
 commit 2: complete the game
-- [V] setState()to Boardcomponent (=add constructor to get data from multiple child components)
+- [V] setState()to Boardcomponent (=add constructor to get data from multiple child components) instead of Square component.
 - [V] add props code to Squares on Board component
--
+- [V] add handleClick() method to Board component 
 
 # Getting Started with Create React App
 
