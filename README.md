@@ -1,14 +1,17 @@
 # Tictactoe
 
-commit 1: setup
+commit A: setup
 - [V] inspect code
 - [V] add props code to Square component
 - [V] setState() to Square component
 
-commit 2: complete the game
+commit B: complete the game
 - [V] setState()to Boardcomponent (=add constructor to get data from multiple child components) instead of Square component.
 - [V] add props code to Squares on Board component
-- [V] add handleClick() method to Board component 
+- [V] add handleClick() method to Board component
+- [V] change turns between player X and O in Board component
+- [V] declare a winner with calculateWinner()
+
 
 # Getting Started with Create React App
 
