@@ -23,6 +23,9 @@ commit B: complete the game
 
 ![tictactoe](https://github.com/dianavile/tictactoe/blob/main/tictactoe-React.JPG)
 
+# CodeSandBox 
+- [CodeSandBox](https://codesandbox.io/s/charming-pike-jy94m)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
