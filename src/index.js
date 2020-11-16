@@ -17,9 +17,9 @@ function Square(props) {
 class Board extends React.Component {
   renderSquare(i) {
     return (
-      <Square
+       <Square
         value={this.props.squares[i]}
-        onClick={() => this.onClick(i)}
+        onClick={() => this.props.onClick(i)}
       />
     );
   }
