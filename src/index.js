@@ -78,6 +78,16 @@ render() {
 
 //component3: Game component (=Parent component)
 class Game extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      history: [{
+      squares: Array(9).fill(null),
+      }],
+      xIsNext: true,
+    };
+  }
+
   render() {
     return (
       <div className="game">
@@ -92,6 +102,11 @@ class Game extends React.Component {
     );
   }
 }
+
+ReactDOM.render(
+  <Game />,
+  document.getElementById('root')
+);
 
 //add helper function calculateWinner()
 function calculateWinner(squares) {
@@ -113,11 +128,6 @@ function calculateWinner(squares) {
   }
   return null;
 }
-
-ReactDOM.render(
-  <Game />,
-  document.getElementById('root')
-);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
