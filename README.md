@@ -14,30 +14,14 @@ commit B: complete the game
 
 
 EXERCISE: Add the following 6 steps to the TicTacToe game
-commit 1: save historical movements
-- []
-- [] 
-- [] 
-commit 2: setState 
-- [] 
-- []
-- []
-commit 3: display historical movements
-- [] 
-- [] 
-- []
-commit 4: add a key 
-- [] 
-- [] 
-- []
-commit 5: implement historical movements 
-- [] 
-- [] 
-- []
-commit 6: debug & refactor code
-- [] 
-- [] 
-- [] 
+- [X] commit 1: save historical movements
+- [X] commit 2: setState: move state from Board to Game component 
+
+- [] commit 3: display historical movements
+- [] commit 4: add a key 
+
+- [] commit 5: implement historical movements 
+- []commit 6: debug & refactor code
 
 # Getting Started with Create React App
 
