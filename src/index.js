@@ -13,7 +13,6 @@ function Square(props) {
   );
 }
 
-
 //component2: Board component (=Child component)
 class Board extends React.Component {
   constructor(props) {
@@ -23,7 +22,6 @@ class Board extends React.Component {
     };
   }
 
-  //TODO: add handleClick()
     handleClick(i) {
     const squares = this.state.squares.slice();
     squares[i] = 'X';
