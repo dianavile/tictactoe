@@ -4,6 +4,7 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//component1: Square component (=Child component)
 class Square extends React.Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class Square extends React.Component {
   }
 }
 
+//component2: Board component (=Child component)
 class Board extends React.Component {
   renderSquare(i) {
     return <Square />;
@@ -45,6 +47,7 @@ class Board extends React.Component {
   }
 }
 
+//component3: Game component (=Parent component)
 class Game extends React.Component {
   render() {
     return (
