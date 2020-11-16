@@ -17,7 +17,8 @@ class Square extends React.Component {
     return (
        <button
         className="square"
-        onClick={() => this.setState({value: 'X'})}
+        onClick={() => this.setState({ value: 'X' })}
+        //with setState() React automatically actualizes child components
       >
         {this.state.value}
       </button>
