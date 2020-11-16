@@ -13,6 +13,32 @@ commit B: complete the game
 - [V] declare a winner with calculateWinner()
 
 
+EXERCISE: Add the following 6 steps to the TicTacToe game
+commit 1: save historical movements
+- []
+- [] 
+- [] 
+commit 2: setState 
+- [] 
+- []
+- []
+commit 3: display historical movements
+- [] 
+- [] 
+- []
+commit 4: add a key 
+- [] 
+- [] 
+- []
+commit 5: implement historical movements 
+- [] 
+- [] 
+- []
+commit 6: debug & refactor code
+- [] 
+- [] 
+- [] 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
