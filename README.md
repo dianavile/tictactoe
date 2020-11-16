@@ -1,9 +1,14 @@
 # Tictactoe
 
 commit 1: setup
-- [] inspect code
-- [] add props code
-- [] setSTate() 
+- [V] inspect code
+- [V] add props code to Square component
+- [V] setState() to Square component
+
+commit 2: complete the game
+- [V] setState()to Boardcomponent (=add constructor to get data from multiple child components)
+- [V] add props code to Squares on Board component
+-
 
 # Getting Started with Create React App
 
