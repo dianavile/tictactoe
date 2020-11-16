@@ -17,9 +17,8 @@ commit B: complete the game
 - [X] commit 2: setState: move state from Board to Game component 
 - [X] commit 3: display historical movements
 - [X] commit 4: add a key 
-
-- [] commit 5: implement historical movements 
-- []commit 6: debug & refactor code
+- [X] commit 5: implement historical movements 
+- [X] commit 6: debug & refactor code
 
 # Getting Started with Create React App
 
