@@ -13,12 +13,15 @@ commit B: complete the game
 - [X] declare a winner with calculateWinner()
 
 ## EXERCISE: Add the following 6 steps to the TicTacToe game
+
 - [X] commit 1: save historical movements
 - [X] commit 2: setState: move state from Board to Game component 
 - [X] commit 3: display historical movements
 - [X] commit 4: add a key 
 - [X] commit 5: implement historical movements 
 - [X] commit 6: debug & refactor code
+
+![tictactoe](https://github.com/dianavile/tictactoe/blob/main/tictactoe-React.JPG)
 
 # Getting Started with Create React App
 
